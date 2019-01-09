@@ -27,6 +27,7 @@
               <v-spacer/>
               <v-flex xs5>
                 <!--品牌-->
+                <!-- autocomplete 自动搜索 -->
                 <v-select
                   :items="brandOptions"
                   item-text="name"
